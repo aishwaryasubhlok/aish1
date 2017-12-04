@@ -1,0 +1,9 @@
+<apex:page >
+  <apex:form >
+  <apex:pageBlock title="section123">
+  <apex:inputField value="{!Account.Name}"/>
+  <apex:commandButton action="{!save}" value="save"/>
+  </apex:pageBlock>
+ 
+  </apex:form>
+</apex:page>
