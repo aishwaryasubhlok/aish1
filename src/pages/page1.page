@@ -1,5 +1,6 @@
-<apex:page >
+<apex:page standardController="Account">
   <apex:form >
+  //hello
   <apex:pageBlock title="section123">
   <apex:inputField value="{!Account.Name}"/>
   <apex:commandButton action="{!save}" value="save"/>
